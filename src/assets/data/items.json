@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Name 1",
+    "price": "8",
+    "topping_detail": [
+      "Avocado",
+      "Broccoli",
+      "Onions",
+      "Zucchini",
+      "Tuna",
+      "Ham"
+    ]    
+  }, {
+    "id": 2,
+    "name": "Pizza Name 2",
+    "price": "10",
+    "topping_detail": [
+      "Broccoli",
+      "Onions",
+      "Zucchini",
+      "Lobster",
+      "Oyster",
+      "Salmon",
+      "Bacon",
+      "Ham"
+    ]
+  }, {
+    "id": 3,
+    "name": "Pizza Name 3",
+    "price": "12",
+    "topping_detail": [
+      "Broccoli",
+      "Onions",
+      "Zucchini",
+      "Tuna",
+      "Bacon",
+      "Duck",
+      "Ham",
+      "Sausage"
+    ]
+  }
+]
