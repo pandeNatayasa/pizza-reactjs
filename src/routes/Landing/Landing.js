@@ -16,15 +16,13 @@ const Landing = props => {
     let newSelectedToppings = []
 
     if (!selectedToppings.includes(name)) {
-      setselectedToppings([...selectedToppings, name]);
-
       newSelectedToppings = [...selectedToppings, name];
       
     } else {
-      setselectedToppings(selectedToppings.filter((toppingName) => toppingName !== name));
-
       newSelectedToppings = selectedToppings.filter((toppingName) => toppingName !== name)
     }
+
+    setselectedToppings(newSelectedToppings)
 
     changeTotalPrice(itemIdSelected, size, newSelectedToppings);
   };
